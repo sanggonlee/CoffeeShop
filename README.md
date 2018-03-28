@@ -69,11 +69,11 @@ DELETE http://localhost:8080/drink?id=deffdea5-85ac-45c0-a859-261855b19544
 
 ### Query drinks
 The following query parameters are supported:
-**name** - Name of the drink to search for
-**date** - Filter the drinks by the date they're available on. Only takes the RFC3339 format
-**ingredients** - List of ingredients separated by commas, matches the drinks that contain all of the given ingredients
-**offset** - Used for pagination. Starting offset to fetch the results
-**limit** - Used for pagination. The size of the batch query request
+**name** - Name of the drink to search for.  
+**date** - Filter the drinks by the date they're available on. Only takes the RFC3339 format.  
+**ingredients** - List of ingredients separated by commas, matches the drinks that contain all of the given ingredients.  
+**offset** - Used for pagination. Starting offset to fetch the results.  
+**limit** - Used for pagination. The size of the batch query request.  
 
 The response has the following structure:
 ```
